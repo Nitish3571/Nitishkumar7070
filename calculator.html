@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            height: 510px;
+            width: 350px;
+            /* margin: 100px 500px; */
+            border: 2px solid black;
+        }
+        .result{
+            display: block;
+            border: 2px solid black;
+            border-bottom: 3px solid black;
+            height: 100px;
+          
+        }
+        /* .mcbtn{
+            display: inline-block;
+            width: 100%;
+            border: 1px solid black;
+        } */
+        .mcbtn button{
+            display: inline-block;
+            border: 1px solid black;
+            width: 60px;
+            margin-left: 5px;
+            margin-bottom: 10px;
+            margin-top: 5px;
+            text-align: center;
+        }
+        .btn button{
+            display: inline-block;
+            border: 1px solid black;
+            width: 77px;
+            height: 50px;
+            margin-left: 5px;
+            margin-bottom: 5px;
+            text-align: center;
+            background: radial-gradient(45deg,white);
+            border-radius: 10px;
+
+        }
+        .btn button:hover{
+            background-color: blue;
+            color: white;
+        }
+        .equal{
+            background-color:darkcyan;
+            color: white;
+        }
+
+        @media only screen and (min-width: 760px) {
+  .container {
+    margin: 100px 700px;
+  }
+}
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div style="text-align: center; height: 30px; line-height: 30px; border-bottom: 5px solid black; font-weight: bold; font-size: 20px; border-left: none; border-right: none;">Calculator</div>
+        <div class="result"></div>
+        <div class="mcbtn">
+            <button>MC</button>
+            <button>MR</button>
+            <button>M+</button>
+            <button>M-</button>
+            <button>MS</button>
+        </div>
+
+        <div class="btn">
+            <button>%</button>
+            <button>CE</button>
+            <button>C</button>
+            <button>cancel</button>
+        </div>
+        <div class="btn">
+            <button>1/x</button>
+            <button>x <sup>2</sup></button>
+            <button>x <sup>1/2</sup></button>
+            <button>/</button>
+        </div>
+        <div class="btn">
+            <button>7</button>
+            <button>8</button>
+            <button>9</button>
+            <button>*</button>
+        </div>
+        <div class="btn">
+            <button>4</button>
+            <button>5</button>
+            <button>6</button>
+            <button>-</button>
+        </div>
+        <div class="btn">
+            <button>1</button>
+            <button>2</button>
+            <button>3</button>
+            <button>+</button>
+        </div>
+        <div class="btn">
+            <button>+/-</button>
+            <button>0</button>
+            <button>.</button>
+            <button class="equal">=</button>
+        </div>
+    </div>
+</body>
+</html>
