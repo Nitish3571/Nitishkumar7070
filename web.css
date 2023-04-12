@@ -1,0 +1,271 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.background{
+    background: rgba(0, 0, 0, 0.7)url(https://www.hdwallpapers.in/download/bridge_between_buildings_and_godowns_hd_dark_aesthetic-HD.jpg);
+    /* background-blend-mode: darken; */
+    background-size: cover;
+}
+.navbar{
+display: flex;
+
+
+ align-items: center;
+ 
+}
+.logo{
+    
+    
+}
+.logo img{
+    height: 50px;
+    width: 50px;
+    border: 2px solid black;
+    border-radius: 50%;
+
+}
+.nav-list {
+    display: flex;
+    align-items: center;
+    width: 50%;
+    
+    
+}
+.nav-list li{
+    list-style: none;
+    margin: 10px;
+    justify-content: center;
+    align-items: center ;
+    
+}
+
+.nav-list li a{
+    text-decoration: none;
+    color: white;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 20px;
+}
+.nav-list li a:hover{
+    text-decoration: none;
+    background-color: darkgray;
+}
+
+.search-box{
+    /* margin-left: 80%; */
+    width: 50%;
+    text-align: right;
+    
+}
+.search-box input{
+    /* margin-left: 80%; */
+ padding: 5px;
+    
+}
+.btn-sm{
+    background-color: aqua;
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 4px;
+    
+ 
+}
+.btn{
+    background:none;
+    border: 2px solid white;
+    border-radius: 5px;
+    padding: 10px;
+    color: white;
+    font-family: 'Ubuntu', sans-serif;
+}
+.btn:hover{
+    background-color: darkmagenta;
+}
+
+/* section  */
+
+.text-center{
+    display: flex;
+    padding: 190px;
+}
+.logo-lg img{
+    height: 300px;
+    width: 500px;
+    border: 2px solid black;
+    border-radius: 50px;
+
+}
+
+.text-box{
+    width: 50%;
+    font-size: 30px;
+    color: white;
+    font-family: 'Ubuntu', sans-serif;
+}
+.text-big{
+   
+    font-size: 30px;
+    color: white;
+    padding-top: 20px;
+   
+}
+.text-sm{
+   
+    font-size: 20px;
+    color: white;
+    padding-top: 20px;
+   
+}
+.logo-lg{
+width: 50%;
+text-align: right;
+}
+
+/* dgtrhetgfffffffffffffffffffffd */
+
+
+.text-center2{
+    display: flex;
+    padding: 190px;
+    /* margin-top: 5px; */
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+.logo-lg img{
+    height: 300px;
+    width: 500px;
+    border: 2px solid black;
+    border-radius: 20px;
+
+}
+
+.text-box1{
+    width: 50%;
+    font-size: 30px;
+    color: black;
+    font-family: 'Ubuntu', sans-serif;
+   
+}
+.text-big1{
+   
+    font-size: 30px;
+    color: black;
+    padding-top: 20px;
+    
+}
+.text-sm1{
+   
+    font-size: 20px;
+    color: black;
+    padding-top: 20px;
+   
+}
+.logo-lg{
+width: 50%;
+text-align: right;
+}
+
+/* section 3 */
+.text-center3{
+    display: flex;
+    flex-direction: row-reverse;
+    padding: 190px;
+    /* margin-top: 5px; */
+    padding-top: 50px;
+    padding-bottom: 50px;
+   
+}
+.logo-lg img{
+    height: 300px;
+    width: 500px;
+    border: 2px solid black;
+    border-radius: 20px;
+    margin-left: 0px;
+
+}
+
+.text-box2{
+    width: 90%;
+    font-size: 30px;
+    color: black;
+    font-family: 'Ubuntu', sans-serif;
+}
+.text-big2{
+   
+    font-size: 30px;
+    color: black;
+    padding-top: 20px;
+    margin-left: 70px;
+    
+}
+.text-sm2{
+   
+    font-size: 20px;
+    color: black;
+    padding-top: 20px;
+    margin-left: 70px;
+}
+.logo-lg{
+width: 60%;
+text-align: right;
+}
+
+
+.contact-input{
+    margin-top: 30px;
+    margin-left: 30%;
+    padding: 10px 200px;
+    margin-bottom: 20px;
+}
+
+.btn1{
+    background:none;
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 5px;
+    color: black;
+    font-family: 'Ubuntu', sans-serif;
+    margin-left: 30%;
+    margin-top: 0px;
+}
+.btn1:hover{
+    background-color: cadetblue;
+   
+}
+
+.about{
+    margin: 10%;
+}
+.about{
+    margin: 5%;
+    margin-top: 2%;
+}
+.about h1{
+    text-align: center;
+    font-size: 40px;
+    padding-bottom: 30px;
+}
+.about p{
+    
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.foot{
+    text-align:center;
+    border: 2px solid white;
+    background-color: darkslategray;
+    padding: 10px;
+    color: white;
+    margin-top: 20px;
+}
+
+
+
+
+@media only screen {
+    
+}
+
