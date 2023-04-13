@@ -1,0 +1,586 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>portfolio.com</title>
+
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+    <style>
+        :root{
+    --bg-color: rgb(25, 31, 25);
+    --bg-second-color:rgb(20, 9, 9);
+    --main-color:rgb(206, 192, 192);
+    --hover-color:rgb(107, 162, 207);
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    text-decoration: none;
+}
+
+html{
+    background: var(--bg-color);
+}
+
+/* <!-- ///////////////// header Section ///////////////////////// --> */
+
+.header{
+    display: flex;
+    /* background: var(--bg-second-color); */
+    background-color: #1b4545;
+    justify-content: space-between;
+    width: auto;
+    height: 1.6rem;
+    padding: 20px 50px;
+    line-height: 1.6rem;
+}
+.header{
+    position: sticky;
+    top: -15px;
+}
+
+.portfolio a{
+    color: var(--main-color);
+    font-size: 1.6rem;
+    text-transform: uppercase;
+    display: inline-block;
+    margin-top: 0px;
+    
+}
+.portfolio a img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    /* background-color: white; */
+    margin-top: -10px;
+    
+}
+.logo{
+    display: flex;
+    color: var(--main-color);
+    /* font-size: 30px; */
+}
+.span{
+    color: var(--main-color);
+    font-size: 1.6rem;
+    line-height: 1.6rem;
+    margin-left: 20px;
+    text-transform: uppercase;
+}
+.menu{
+    display: inline-block;
+    font-size: 1.6rem;
+}
+.menu a{
+    color: var(--main-color);
+    margin-left: 1.6rem;
+    /* transition: 3s ease; */
+}
+.menu a:hover , .active,.portfolio a:hover{
+    color:var(--hover-color);
+    /* transition: 0; */
+
+}
+.menu-outline{
+    /* color: var(--bg-second-color); */
+    color: var(--main-color);
+    font-size: 2rem;
+    display: inline-block;
+    /* display: none */
+    ;
+}
+
+/* <!-- ///////////////// Home Section ///////////////////////// --> */
+.home{
+    width: 100%;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+    
+}
+.text{
+    padding: 20px 50px;
+    /* text-align: center; */
+    color: var(--main-color);
+    margin-left: 50px;
+}
+.text h2{
+    padding: 5px 50px;
+    font-size: 80px;
+    text-align: center;
+    margin-bottom: 0px;
+    color: var(--main-color);
+}
+.text h3{
+    color: white;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+.btn{
+    border: 2px solid wheat;
+    padding: 10px 30px;
+    text-align: center;
+    align-items: center;
+    margin-left: 30%;
+    margin-top: 20px;
+    background-color: var(--main-color);
+    color: var(--bg-color);
+    border-radius: 50px;
+    box-shadow: 1px 2px white;
+}
+.btn:hover{
+    /* border: 2px solid wheat; */
+    /* padding: 10px 30px; */
+    /* text-align: center; */
+    background-color: var(--hover-color);
+    color: var(--bg-color);
+}
+span{
+    color: rgb(63, 80, 194);
+
+}
+.text p{
+    font-size: 18px;
+}
+.img5{
+    width: 100%;
+
+}
+ .img1{
+    width: 100%;
+    height: 500px;
+    border-radius: 50%;
+    margin: 10px 0px;
+    border: 20px solid red;
+
+ }
+ hr{
+    border: 10px solid white;
+ }
+
+ /* <!-- ///////////////// About Section ///////////////////////// --> */
+
+ .about{
+    width: 100%;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+}
+
+.img2{
+    width: 100%;
+    height: 500px;
+    border-radius: 50%;
+    /* margin: 10px 50px; */
+    border: 20px solid red;
+
+ }
+
+.me h2{
+    padding: 5px 50px;
+    font-size: 80px;
+    text-align: center;
+    margin-bottom: 0px;
+    color: var(--main-color);
+    /* text-decoration: underline; */
+    /* text-underline-position: below; */
+}
+
+/* <!-- ///////////////// Service Section ///////////////////////// --> */
+.servicebg{
+    width: 100%;
+    background-color: var(--bg-color);
+    height: auto;
+}
+.service{
+width: 100%;
+display: grid;
+grid-template-columns: repeat(3,1fr);
+gap: 80px;
+margin-top: 50px;
+margin-bottom: 50px;
+}
+.service .img{
+    padding: 10px 20px;
+    margin-left: 0px;
+    color: var(--main-color);
+    border: 2px solid white;
+    border-radius: 50px;
+}
+.service .img:hover{
+    box-shadow: 2px 3px 5px 6px rgb(58, 112, 230);
+    background-color: var(--hover-color);
+    color: var(--main-color);
+}
+
+.img h2{
+    padding: 5px 10px;
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 0px;
+    color: var(--main-color);
+}
+.img h3{
+    color: white;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.service .img a img{
+/* position: absolute; */
+width: 100%;
+height: 250px;
+}
+
+
+/* <!-- ///////////////// Contact Section ///////////////////////// --> */
+
+.contact1{
+    background-color:rgb(25, 31, 25);
+}
+form{
+    text-align: center;
+}
+form .input input{
+    padding: 10px 80px;
+   margin: 10px 10px;
+}
+#btn{
+    border: 2px solid wheat;
+    padding: 10px 30px;
+    text-align: center;
+    align-items: center;
+    margin-left: 5px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    background-color: var(--main-color);
+    color: var(--bg-color);
+    border-radius: 50px;
+    box-shadow: 1px 2px rgb(149, 159, 218);
+}
+#btn:hover{
+    background-color: var(--hover-color);
+    color: var(--bg-color);
+}
+textarea{
+    resize: none;
+}
+
+.footer{
+    background-color: rgb(13, 32, 13);
+    height: 50px;
+    font-size: 20px;
+    text-align: center;
+    line-height: 50px;
+    color: rgb(156, 168, 171);
+}
+
+@media screen and (min-width:719px) and (max-width:991px){
+    .menu a{
+        margin: 20px 0px;
+        display: block;
+    }
+    .header{
+        display: block;
+        float: left;
+        font-size: 3rem;
+        width: 100%;
+        height: auto;
+    }
+    .menu-outline{
+        float: right;
+        font-size: 4rem;
+        margin-top: -50px;
+    }
+    .home{
+        width: 100%;
+        height: 900px;
+        flex-direction: column;
+        
+    }
+    .text h3{
+        font-size: 45px;
+    }
+    .text p{
+        font-size: 20px;
+    }
+    .img5{
+        width: auto;
+    }
+    .img1{
+        margin-top: 10px;
+        margin-bottom: 50px;
+    }
+    .about{
+        height: 1000px;
+        flex-direction: column;
+    }
+    .me h2{
+        margin-top: 80px;
+        color: cornflowerblue;
+        background-color: #1b4545;
+        width: 100%;
+
+    }
+    
+    .img2{
+        width: auto;
+        margin-top: 10px;
+     }
+     .servicebg{
+        width: 100%;
+        height: auto;
+    }
+    .service{
+        width: auto;
+    grid-template-columns: repeat(2,1fr);
+    margin-left: 100px;
+    }
+    form{
+        /* padding: 10px 80px; */
+        /* width: 100%; */
+       margin: 50px auto;
+       margin-left: 50px;
+    }
+}
+@media screen and (min-width:320px) and (max-width:570px){
+    .menu a{
+        width: 100%;
+        margin: 20px 0px;
+        display: block;
+        font-size: 20px;
+        margin: auto;
+    }
+    .header{
+        display: block;
+        float: left;
+        width: 100%;
+        height: auto;
+    }
+    .menu-outline{
+        float: right;
+        font-size: 3rem;
+        margin-top: -50px;
+    }
+    .home{
+        width: 100%;
+        height: 900px;
+        flex-direction: column;
+        
+    }
+    .text{
+        width: 100%;
+        text-align: justify;
+    }
+    .text h2{
+        width: 100%;
+        text-align: left;
+        font-size: 60px;
+        padding: 0px;
+    }
+    .text h3{
+        width: 100%;
+        font-size: 30px;
+    }
+    .text p{
+        width: 100%;
+        font-size: 20px;
+    }
+    .img5{
+        width: 100%;
+        width: 400px;
+    }
+    .img1{
+        width: 100%;
+        margin-left: 30px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        height: 400px;
+    }
+    .about{
+        height: 900px;
+        flex-direction: column;
+    }
+    .me h2{
+        font-size: 50px;
+        margin-top: 40px;
+        color: cornflowerblue;
+        background-color: #1b4545;
+        width: 100%;
+
+    }
+    
+    .img2{
+        width: 100%;
+        margin-left: 30px;
+        margin-bottom: 10px;
+        height: 400px;
+     }
+     .servicebg{
+        width: 100%;
+        height: auto;
+    }
+    .service{
+        /* width: auto; */
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+    grid-template-columns: repeat(1,1fr);
+    margin-left: 50px;
+    }
+    form{
+        margin-top: 20px;
+        text-align: left;
+    }
+    form .input input{
+        width: 100%;
+        padding: 10px 40px;
+        margin: 10px 10px;
+    }
+    textarea{
+        resize: none;
+        width: 100%;
+        margin-left: 10px;
+        padding: 10px 40px;
+    }
+    #btn{
+        margin-left: 40%;
+    }
+    .footer{
+        width: 100%;
+        height: 50px;
+        font-size: 14px;
+        text-align: center;
+        line-height: 50px;
+    
+    }
+    
+}
+@media screen and (min-width:993px) {
+    .menu-outline{
+        display: none;
+    }
+}
+    </style>
+</head>
+<body>
+    <header class="header" id="header">
+        <div class="portfolio">
+            <div class="logo">
+            <a href="#"><img src="https://nitish3571.github.io/website1/onlinecom.png" alt="portfolio"></a>
+            <span class="span">Nitish kumar</span>
+            </div>
+        </div>
+        <ion-icon name="menu-outline" class="menu-outline"></ion-icon>
+        <div class="menu">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#service">Services</a>
+            <a href="#contact">Contact</a>
+        </div>
+    </header>
+
+<!-- ///////////////// Home Section ///////////////////////// -->
+<section class="home" id="home">
+    <div class="text">
+        <h2>Nitish kumar</h2>
+        <h3>I belong to bihar. <span>currently study in ahmedabad.</span></h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt porro odit voluptas consectetur accusantium debitis aperiam quo facilis? Blanditiis consequatur, dolorum voluptatum non reprehenderit possimus illo? Et ipsum alias quas.</p>
+        <input type="button" class="btn" value="Read More">
+    </div>
+    <div class="img5"><img src="https://nitish3571.github.io/website1/nitishphoto.jpg" alt="photo" class="img1">
+    </div>
+</section>
+
+
+<!-- ///////////////// About Section ///////////////////////// -->
+<div class="me"><h2>About Me</h2></div>
+<section class="about" id="about">
+    <div class="text">
+        <h2>Nitish kumar</h2>
+        <h3>I belong to bihar. <span>currently study in ahmedabad.</span></h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt porro odit voluptas consectetur accusantium debitis aperiam quo facilis?  Blanditiis consequatur, dolorum voluptatum non reprehenderit possimus illo? Et ipsum alias quas.</p>
+        <input type="button" class="btn" value="Read More">
+    </div>
+    <div class="img5"><img src="nitishphoto.jpg" alt="photo" class="img2"></div>
+</section>
+
+<!-- ///////////////// Service Section ///////////////////////// -->
+<div class="servicebg">
+<div class="me"><h2>Services Provides</h2></div>
+<section class="service" id="service">
+    <div class="img">
+        <h2>Nitish kumar</h2>
+        <h3>I belong to bihar. <span>currently study in ahmedabad.</span></h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt porro odit voluptas consectetur accusantium debitis aperiam quo facilis? </p>
+    <a href="#"><img src="https://nitish3571.github.io/website1/onoline%20company%20(1).png" alt="photo1"></a>
+    </div>
+    <div class="img">
+        <h2>Nitish kumar</h2>
+        <h3>I belong to bihar. <span>currently study in ahmedabad.</span></h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt porro odit voluptas consectetur accusantium debitis aperiam quo facilis?</p>
+    <a href="#"><img src="https://nitish3571.github.io/website1/onoline%20company%20(2).png" alt="photo2"></a>
+    </div>
+    <div class="img">
+        <h2>Nitish kumar</h2>
+        <h3>I belong to bihar. <span>currently study in ahmedabad.</span></h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt porro odit voluptas consectetur accusantium debitis aperiam quo facilis? </p>
+    <a href="#"><img src="https://nitish3571.github.io/website1/onoline%20company%20(3).png" alt="photo3"></a>
+    </div>
+    <div class="img">
+        <h2>Nitish kumar</h2>
+        <h3>I belong to bihar. <span>currently study in ahmedabad.</span></h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt porro odit voluptas consectetur accusantium debitis aperiam quo facilis?</p>
+    <a href="#"><img src="https://nitish3571.github.io/website1/onoline%20company%20(4).png" alt="photo4"></a>
+    </div>
+    <div class="img">
+        <h2>Nitish kumar</h2>
+        <h3>I belong to bihar. <span>currently study in ahmedabad.</span></h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt porro odit voluptas consectetur accusantium debitis aperiam quo facilis?</p>
+    <a href="#"><img src="https://nitish3571.github.io/website1/onoline%20company%20(5).png" alt="photo5"></a>
+    </div>
+    <div class="img">
+        <h2>Nitish kumar</h2>
+        <h3>I belong to bihar. <span>currently study in ahmedabad.</span></h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt porro odit voluptas consectetur accusantium debitis aperiam quo facilis?</p>
+    <a href="#"><img src="https://nitish3571.github.io/website1/onoline%20company%20(6).png" alt="photo6"></a>
+    </div>
+</section>
+</div>
+
+<!-- ///////////////// Contact Section ///////////////////////// -->
+<div class="contact1">
+<div class="me"><h2>Contact Us</h2></div>
+<section class="contact" id="contact">
+    <form action="">
+    <div class="input">
+        <input type="text" name="name" placeholder="Enter the first name" autofocus>
+        <input type="text" name="name" placeholder="Enter the last name" autofocus>
+    </div>
+    <div class="input">
+        <input type="email" name="email" placeholder="Enter the email" autofocus>
+        <input type="number" name="number" placeholder="Mobile number" autofocus>
+    </div>
+    <textarea name="" id="" cols="90" rows="10" autofocus placeholder="Write message"></textarea><br>
+    <input type="button" class="btn" id="btn" value="send message">
+
+    </form>
+
+</section>
+</div>
+
+<!-- ///////////////// Contact Section ///////////////////////// -->
+<section class="footer">
+    <p>&copy;2023 All Rights Reserved,Nitish Rana Jee Privacy policy Terms</p>
+</section>
+</body>
+</html>
